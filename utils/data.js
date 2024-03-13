@@ -102,7 +102,7 @@ const names = [
 
     // Function to generate random names
   const getRandomName = () =>
-    `${getRandomArrItem(names)} ${getRandomArrItem(names)}`;
+    `${getRandomArrItem(names)}${getRandomArrItem(names)}`;
   
   // Function to generate random thoughts
   const getRandomThoughts = (int) => {
